@@ -11,3 +11,5 @@ Employee Directory is an application built using React Javascript. The purpose o
 
 ## Images 
 
+![image](https://github.com/adamjuwig/React-Employee-Directory/blob/main/public/images/EmpDirectoryLAST.png)
+![image](https://github.com/adamjuwig/React-Employee-Directory/blob/main/public/images/EmpDirectorySORT.png)
