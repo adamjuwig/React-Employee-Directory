@@ -1,6 +1,5 @@
 {
-  "name": "employee-directory",
-  "homepage": "https://adamjuwig.github.io/React-Employee-Directory",
+  "name": "employee-directory",  
   "version": "0.1.0",
   "private": true,
   "dependencies": {
