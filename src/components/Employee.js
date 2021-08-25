@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import Table from './Table';
 import API from '../utils/API';
 
+
 class Employee extends Component {
     state = {
         employees: [],
@@ -74,13 +75,13 @@ class Employee extends Component {
                     <input
                       type="text"
                       className="form-control"
-                      placeholder="Search Employee"
+                      placeholder="Search Employee by Last Name"
                       aria-label="Search Employee"
                       aria-describedby="basic-addon1"
                       onChange={this.handleSearch}
                     />
                   </div>
-                  <button className= "btn btn-light" onClick= {this.sortByName}>Sort</button>
+                  <button className= "btn btn-dark" onClick= {this.sortByName}>Sort</button>
                 </div>
             <div>
                

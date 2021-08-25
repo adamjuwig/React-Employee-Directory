@@ -5,7 +5,7 @@ function Table(props) {
   const employees = props.employees
 
     return (
-        <table className="table table-success table-striped">
+        <table className="table bg-gradient-light table-striped">
         <thead>
           <tr>
             <th scope="col"></th>
@@ -18,14 +18,14 @@ function Table(props) {
           {employees.map((employees, i) => (
           <tr key={i}>
             <td><img src = {employees.picture.medium} alt = ""></img></td>
-            <td>{employees.name.first}</td>
-            <td>{employees.name.last}</td>
-            <td>{employees.cell}</td>            
+            <td className="p-5">{employees.name.first}</td>
+            <td className="p-5">{employees.name.last}</td>
+            <td className="p-5">{employees.cell}</td>            
           
           </tr>
 
           ))}
-           
+          
         </tbody>
       </table>
     )

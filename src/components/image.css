@@ -1,0 +1,14 @@
+.image {
+    background: url('./whiteBrick.png');
+    background-repeat: no-repeat;
+    background-position: center;   
+    background-size: cover;
+    height: 200px;
+    opacity: 80%;
+    /* color: #fff; */
+    box-shadow: 9px 9px 9px rgb(150, 150, 150);
+}
+.textShadow {
+    color: #000000;
+    text-shadow: 1px 3px 5px #4b0d0d;
+}
